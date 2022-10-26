@@ -1,0 +1,26 @@
+#!/bin/bash
+echo "Carros disponiveis"
+echo
+echo "  Ferrari e Lamborghini"
+echo "  Celta "
+echo "  Palio e Uno "
+echo 
+echo "Digite qual carro deseja ver a classe:"
+read  op 
+echo 
+
+if ["$op" = "Ferrari" && "op" = "Lamborghini"]; then
+	echo "A classe do carro e A"
+fi
+
+if ["$op" = "Celta" ];then
+	echo "A classe do carro e B"
+fi
+
+if ["$op" = "Palio" && "$op" = "Uno"];then
+	echo "A classe do carro e C"
+fi
+
+exit 
+
+

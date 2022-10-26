@@ -1,0 +1,22 @@
+#!/bin/bash
+
+echo " Bem vindo ao nosso sistema medico "
+echo
+echo
+echo "Digite a opcao do turno desejado:"
+echo "1 - Manha"
+echo "2 - Tarde"
+echo "3 - Noite"
+read turno
+if ["$turno" = "1"];then
+ 	echo "Medico jose carmagos e o unico a atender no turno da manha  "
+	echo "consulta esta marcada"
+elif  ["$turno" = "2"];then	
+	echo "Medica julia nogueira e a unica a atender no turno da tarde "
+	echo "consulta esta marcada"
+else 
+       echo "Medico juliano alvares e o unico que atende no turno da noite"
+       echo "consulta esta marcada"
+fi       
+
+ 

@@ -1,0 +1,11 @@
+#!/bin/bash
+
+RESULTADO=$(ls -l | wc -l)
+
+if [ "$RESULTADO" -ge 5 ]
+then 
+     echo "Há muitos arquivos na pastas"
+else
+     echo "Há poucos arquivos na pastas"
+fi
+

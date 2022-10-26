@@ -1,0 +1,20 @@
+#!/bin/bash
+if [ -f /etc/passwd ]
+then
+         echo "primeira condição satisfeita" 	
+         if [ "USER" = "ROOT" ]
+         then
+		echo "Segunda condição satisfeita" 
+                DIA=$(date '+%a')
+
+                if  [ "DIA" = "wed"]
+                then
+			echo "Terceira condição satisfeita"
+                        printf "Todas as condições foram satisfeitas.\n" 
+                fi
+         fi
+else
+	echo "Nenhuma das condições foram satisfeitas"
+fi
+
+

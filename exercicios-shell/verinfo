@@ -1,0 +1,15 @@
+#!/bin/bash
+clear
+#visualizar informações do sistema
+echo "usuario logado no sistema - $USER"
+echo "ID do usuario logado      - ${UID}"
+echo "Diretorio pessoal         - $HOME"
+echo "Nome do computador        - ${HOSTNAME}"
+echo "Shell utilizado           - $SHELL"
+
+read 
+
+exit 0
+
+
+

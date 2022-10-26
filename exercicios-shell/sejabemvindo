@@ -1,0 +1,7 @@
+#!/bin/bash
+
+#Este e usado para comentario é o primeiro script do curso shell bash
+echo "Sejam bem vindos ao curso shell script com bash" 
+exit 0
+
+
