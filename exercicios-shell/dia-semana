@@ -1,9 +1,0 @@
-#!/bin/bash
-
-DIA=$(date '+%a')
-if [ "$DIA" = "quarta" ];then
-      echo "Estamos no meio da semana" 
-else 
-     echo "Estamos em outro dia"	
-fi
-

@@ -1,8 +1,0 @@
-#!/bin/bash
-#le o arquivo-1 e cria outros arquivos baseado na lista de esta dentro do arquivo1
-#usando estrutura de repetição while
-while read ARQUIVO
-do
-  touch '$ARQUIVO'
-done < arq-11205.txt
-
